@@ -2,12 +2,12 @@
 name = "sscout"
 version = "0.0.1"
 
-[tool.setuptools]
-package = ["plugins", "sscout"]
-
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-dir]
+"sscout" = "sscout"
 
 [project.scripts]
 sscout = "sscout.sscout.__main__:main"
