@@ -10,4 +10,4 @@ build-backend = "setuptools.build_meta"
 "sscout" = "sscout"
 
 [project.scripts]
-sscout = "sscout.__main__:main"
+sscout = "sscout.sscout:main"
