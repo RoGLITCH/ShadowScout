@@ -8,4 +8,4 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-sscout = "sscout.sscout:main"
+sscout = "sscout.sscout.__main__:main"
