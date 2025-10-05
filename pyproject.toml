@@ -1,3 +1,11 @@
 [project]
 name = "sscout"
 version = "0.0.1"
+packages = ["plugins", "sscout"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+sscout = "sscout/sscout.py:main"
