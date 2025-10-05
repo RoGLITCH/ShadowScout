@@ -1,7 +1,6 @@
 [project]
 name = "sscout"
 version = "0.0.1"
-packages = ["plugins", "sscout"]
 
 [build-system]
 requires = ["setuptools"]
