@@ -2,6 +2,9 @@
 name = "sscout"
 version = "0.0.1"
 
+[tool.setuptools]
+package = ["plugins", "sscout"]
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
