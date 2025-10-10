@@ -2,7 +2,8 @@
 name = "sscout"
 version = "0.0.1"
 dependencies = [
-	"click"
+	"click",
+	"rich"
 ]
 
 [build-system]
