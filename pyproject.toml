@@ -3,7 +3,7 @@ name = "sscout"
 version = "0.0.1"
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools", "click"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.package-dir]
