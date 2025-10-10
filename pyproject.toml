@@ -1,9 +1,12 @@
 [project]
 name = "sscout"
 version = "0.0.1"
+dependencies = [
+	"click"
+]
 
 [build-system]
-requires = ["setuptools", "click"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.package-dir]
